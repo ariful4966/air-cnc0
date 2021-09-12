@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+$color: #2BDE8C;
+$Roboto: 'Roboto', sans-serif;
+
+.brand_color{
+  color: $color;
+  font-family: $Roboto;
+
+}
+.brand_bg {
+  background: linear-gradient(
+45deg, #2BDE8C, #6BEC5A);
+}
+.brand_btn_outline{
+  border: 1px solid $color;
+  background: none;
+  color: #2BDE8C;
+}
+.brand_btn_outline:hover {
+  background: #2bde8c;
+  color: #fff;
+}

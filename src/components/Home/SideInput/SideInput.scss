@@ -1,0 +1,23 @@
+.sideBar_card {
+    p {
+        input {
+            width: 50px;
+            text-align: center;
+        }
+    }
+}
+
+.brand_search {
+    position: relative;
+}
+
+label.search_icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 75%;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+}
